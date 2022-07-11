@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Controller {
+
+	public Controller() {
+		
+		int main ; {
+			
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("********** Menu de Opciones **********\n\n"); 	
+			System.out.println("1: Consultar envasado sin ingreso al stock");
+			System.out.println("2: Ingreso | Egreso de mercadería");
+			System.out.println("3: Dar alta un producto en Base de Datos");       	
+			System.out.println("4: Eliminar producto en Base de Datos");          	
+			System.out.println("99: Salir del sistema \n");
+			menuPpal = sc.nextInt();  
+			
+		}
+		// TODO Auto-generated constructor stub
+	}
+
+	private void menuPpal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
